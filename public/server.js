@@ -1,6 +1,7 @@
-import app from './app.js';
-import { PORT } from './src/config/env.js';
-import { testConnection } from './src/config/db.js';
+import app from '../app.js';
+import { PORT } from '../src/config/env.js';
+import { testConnection } from '../src/config/db.js';
+
 
 const startServer = async () => {
   await testConnection();
